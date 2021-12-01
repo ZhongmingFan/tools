@@ -1,0 +1,2 @@
+https://github.91chi.fun//https://github.com//k3s-io/k3s/releases/download/v1.22.4%2Bk3s1/k3s
+https://github.91chi.fun//https://github.com//k3s-io/k3s/releases/download/v1.22.4%2Bk3s1/k3s-airgap-images-amd64.tar.gz

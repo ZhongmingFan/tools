@@ -1,0 +1,3 @@
+#TODO: 暂以x86 centos7为主  增加其他架构和操作系统
+cd /OS/x86/Centos7
+INSTALL_K3S_EXEC="--docker --data-dir /home/data/k3s --default-local-storage-path /home/data/local-storage --write-kubeconfig /root/.kube/config --kube-apiserver-arg service-node-port-range=1-65535 feature-gates=TTLAfterFinished=true --kube-controller-manager-arg feature-gates=TTLAfterFinished=true --kube-scheduler-arg feature-gates=TTLAfterFinished=true  --cluster-init" INSTALL_K3S_SKIP_DOWNLOAD=true K3S_TOKEN=fzmxxq sh ./files/install.sh
